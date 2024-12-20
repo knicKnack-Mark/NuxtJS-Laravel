@@ -1,2 +1,2 @@
 # NuxtJS-Laravel
-Nuxt.Js and Laravel tech stack
+Making project using Nuxt.Js for frontend and Laravel for backend
