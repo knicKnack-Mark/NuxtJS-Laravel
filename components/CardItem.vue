@@ -47,6 +47,7 @@ const props = defineProps({
 <style scoped>
 .card {
   margin: 5% 0%;
+  cursor: pointer; 
 }
 
 .custom-font-cormorant {

@@ -15,6 +15,7 @@
         </button>
       </div>
     </div>
+
     <!-- second -->
      <div class="px-5 mx-3 text-center pt-5 mt-5">
       <h1 class="lh-1 custom-font-cormorant">
@@ -31,14 +32,15 @@
           From sleek, modern minimalism to the enduring charm of timeless classics, our diverse range of designs caters to every style preference. At Casa De Lujo, we are committed to turning your vision into reality by creating furniture that not only enhances your space but also enriches your lifestyle. Let us help you transform your house into a warm, inviting home that truly feels like your own.
         </p>
       </div>
-      <button class="btn btn-dark btn-sm mt-5">Learn More</button>
+      <button class="btn btn-dark btn mt-5">Learn More</button>
      </div>
+
      <!-- third -->
      <div class="py-5 my-2">
       <h1 class="lh-1 custom-font-cormorant text-center">
        Featured Favorites
       </h1>
-      <div class="container py-5">
+      <div class="container pt-5">
         <div class="row g-4">
           <div class="col-md-4 col-lg-3 col-sm-6"
             v-for="(item, index) in itemList" 
@@ -47,7 +49,6 @@
             <CardItem v-bind="item" />
           </div>
         </div>
-        <hr class="mx-auto border border-dark border-1 opacity-50" style="width: 90%;">
       </div>
      </div>
   </div>
